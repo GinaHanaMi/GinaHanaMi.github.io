@@ -29,6 +29,16 @@
     height: 22vh;
 }
 
+.project-item:hover {
+    background-color: #514d92;
+    border-style: solid;
+    border-color: rgb(0, 197, 197);
+    padding: 19px;
+    border-width: 1px;
+    transition: 50ms;
+}
+
+
 .project-image {
     width: 20%;
     height: 100%;
@@ -70,6 +80,8 @@
 
 
 }
+
+
 
 
 /* @media (min-width: 0px) and (max-width: 680px) {
