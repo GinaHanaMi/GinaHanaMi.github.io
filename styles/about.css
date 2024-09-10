@@ -102,6 +102,13 @@
     .about-name-surname {
         font-size: 9vw;
     }
+
+    .introduction-about-me {
+        font-size: 35px;
+        padding: 0;
+        color: #BBAAB8;
+        text-align: center;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 1100px) {
