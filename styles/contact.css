@@ -3,8 +3,13 @@
 }
 
 .contact-link-image {
-    height: 3vw;
+    height: 7vh;
     padding: 15px;
+}
+
+.contact-link-image:hover {
+    height: 8vh;
+    transition: 300ms;
 }
 
 .contact-section {
