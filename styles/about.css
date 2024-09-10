@@ -5,6 +5,7 @@
     padding-bottom: 20px;
 }
 
+
 .about-me-container {
     display: flex;
     max-width: 85vw;
@@ -12,7 +13,6 @@
 
 .introduction-about-me {
     padding: 30px;
-    min-width: 360px;
     font-size: 35px;
     color: #BBAAB8;
 }
@@ -87,6 +87,8 @@
     color: #e99e75;
 }
 
+
+
 @media (min-width: 1px) and (max-width: 575px) {
     .about-me-container {
         flex-direction: column;
@@ -108,6 +110,10 @@
         padding: 0;
         color: #BBAAB8;
         text-align: center;
+    }
+
+    .my-name {
+        font-size: 8vw;
     }
 }
 
