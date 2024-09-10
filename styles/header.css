@@ -9,11 +9,13 @@ header {
     padding-bottom: 10px;
     z-index: 100;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar {
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
 
 .navbar-inside {
@@ -23,7 +25,8 @@ header {
     padding-left: 1vw;
     padding-right: 1vw;
     border-width: 1px;
-    min-width: 360px;
+    width: 100%;
+    min-width: 253px;
 }
 
 .navbar-ul {
@@ -46,13 +49,7 @@ header {
     transition: 100ms;
 }
 
-.nav-item {
-    padding: 3px;
-}
 
-.nav-link {
-    margin: 10px;
-}
 
 @media (min-width: 0px) and (max-width: 365px) {
 
@@ -88,4 +85,11 @@ header {
         display: none;
     }
 
+}
+
+@media (max-width: 1150px) {
+    .nav-item {
+        margin-left: 4px;
+        margin-right: 4px;
+    }
 }
