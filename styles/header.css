@@ -53,3 +53,39 @@ header {
 .nav-link {
     margin: 10px;
 }
+
+@media (min-width: 0px) and (max-width: 365px) {
+
+    header {
+        display: none;
+    }
+    
+    .navbar {
+        display: none;
+    }
+    
+    .navbar-inside {
+        display: none;
+    }
+    
+    .navbar-ul {
+        display: none;
+    }
+    
+    .nav-link, .nav-item {
+        display: none;
+    }
+    
+    .nav-item:hover {
+        display: none;
+    }
+    
+    .nav-item {
+        display: none;
+    }
+    
+    .nav-link {
+        display: none;
+    }
+
+}
